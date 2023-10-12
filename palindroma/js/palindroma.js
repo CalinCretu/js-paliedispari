@@ -20,10 +20,10 @@ let resultDOMElement = document.getElementById("result");
 
 if (isPalindrome(word)) {
 
-  resultDOMElement.innerHTML = "The word is a palindrome";
+  resultDOMElement.innerHTML = `La parola ${word}` + ' é palindroma';
 
 } else {
 
-  resultDOMElement.innerHTML = "The word is not a palindrome";
+  resultDOMElement.innerHTML = `La parola ${word}` + ' non é palindroma';
 
 }
